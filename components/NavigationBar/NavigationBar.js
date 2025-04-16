@@ -1,6 +1,12 @@
 import Link from "next/link"
 import styled from "styled-components";
 
+/* 
+Need to use useRouter hook to avoid navbar reloading?
+import { useRouter } from 'next/navigation'
+*/
+
+
 const StyledLink = styled(Link)`
   color: white;
   padding: 100px;

@@ -5,7 +5,7 @@ Refactored from ArtWorkDisplay for ease of use elsewhere and neatness
 import styled from "styled-components"
 
 export const Card = styled.div`
-
+background-color: lightgray;
 `
 export const Image = styled.img`
     width: 100%;
