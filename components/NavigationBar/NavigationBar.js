@@ -15,6 +15,8 @@ const StyledLink = styled(Link)`
 
 const StyledFooter = styled.footer `
     display: flex;
+    position: sticky;
+    margin-bottom: 0;
     align-items: center;
     width: 100%;
     background-color: black;

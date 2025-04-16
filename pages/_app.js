@@ -9,9 +9,9 @@ Moved to the top of page so that it's easier to check on
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <NavigationBar/>
       <GlobalStyle />
       <Component {...pageProps} />
+      <NavigationBar/>
     </>
   );
 }

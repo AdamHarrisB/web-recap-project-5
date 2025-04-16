@@ -1,10 +1,10 @@
 import ArtWorkList from "@/components/ArtWorkList/ArtWorkList";
+import { Title } from "@/components/Styles/styles";
 
 export default function ArtPiecesPage() {
     return (
         <>
-            <h1>Art Gallery</h1>
-            <h2>Art Pieces</h2>
+            <Title>Art Pieces</Title>
             <ArtWorkList/>
         </>
     );
