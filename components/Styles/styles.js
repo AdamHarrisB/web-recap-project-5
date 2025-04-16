@@ -1,3 +1,7 @@
+/*
+Refactored from ArtWorkDisplay for ease of use elsewhere and neatness
+*/
+
 import styled from "styled-components"
 
 export const Card = styled.div`

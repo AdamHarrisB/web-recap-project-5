@@ -2,11 +2,14 @@ import { ArtWorkDisplay } from "../ArtWorkDisplay/ArtWorkDisplay";
 import { useEffect } from "react";
 import { useState } from "react";
 
+/* as with the artwork display function but with the math.random() method added 
+
+*/
+
 export function SpotlightDisplay(){
     const [SpotlightWork, setsSpotlightWork] = 
     useState([]);
     const [isLoading, setIsLoading] = useState(true);
-    const [error, setError] = useState(null);
 
      useEffect(() => {
             async function fetchData() {
@@ -24,6 +27,9 @@ export function SpotlightDisplay(){
                 fetchData();
               }, []);
     
+              if (isLoading) return <p>Loading...</p>;
+
+
     return (
         <ArtWorkDisplay work={SpotlightWork} />
 );  
