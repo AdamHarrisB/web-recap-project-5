@@ -11,12 +11,14 @@ const Card = styled.div`
 
 `
 const Image = styled.img`
-
+    width: 100%;
 `
 const Name = styled.h2`
+    color: black;
 
 `
 const Artist = styled.h3`
+    color: lightgray;
 
 `
 
