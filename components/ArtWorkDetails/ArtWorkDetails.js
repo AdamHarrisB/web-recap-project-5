@@ -13,7 +13,6 @@ export default function ClickToNavigate() {
   return (
     <div
       onClick={handleClick}
-      style={{ cursor: 'pointer', color: 'blue', textDecoration: 'underline' }}
     >
     </div>
   );
