@@ -12,6 +12,7 @@ export default function HomePage() {
       <h1>HomePage</h1>
       <footer>
         <Link href="art-pieces">Art Pieces</Link>
+        <Link href="favourites">Favourites</Link>
       </footer>
     </div>
   );
