@@ -15,10 +15,12 @@ const Image = styled.img`
 `
 const Name = styled.h2`
     color: black;
+    text-align: center;
 
 `
 const Artist = styled.h3`
-    color: lightgray;
+    color:rgb(54, 54, 54);
+    text-align: center;
 
 `
 
