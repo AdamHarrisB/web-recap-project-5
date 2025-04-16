@@ -20,12 +20,12 @@ const Artist = styled.h3`
 
 `
 
-export function ArtWorkDisplay() {
+export function ArtWorkDisplay({ work }) {
     return (
         <Card>
-            <Image src= />
-            <Name></Name>
-            <Artist></Artist>
+            <Image src={work.imageSource} alt="Not Found" />
+            <Name>{work.name}</Name>
+            <Artist>{work.artist}</Artist>
         </Card>
     );
 }

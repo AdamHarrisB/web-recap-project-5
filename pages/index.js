@@ -11,7 +11,7 @@ export default function HomePage() {
     <div>
       <h1>HomePage</h1>
       <footer>
-        <Link href="art-pieces.js">Art Pieces</Link>
+        <Link href="art-pieces">Art Pieces</Link>
       </footer>
     </div>
   );
