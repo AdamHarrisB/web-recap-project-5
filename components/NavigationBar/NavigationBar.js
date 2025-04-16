@@ -2,7 +2,7 @@ import Link from "next/link"
 import styled from "styled-components";
 
 /* 
-Need to use useRouter hook to avoid navbar reloading?
+Need to use useRouter hook to avoid navbar reloading? - Solved by moving to _app.js
 import { useRouter } from 'next/navigation'
 */
 
@@ -19,7 +19,6 @@ const StyledFooter = styled.footer `
     width: 100%;
     background-color: black;
 `;
-
 
 export function NavigationBar () {
     return(

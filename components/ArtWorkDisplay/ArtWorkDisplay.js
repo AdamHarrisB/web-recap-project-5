@@ -5,6 +5,8 @@ Needs to be exported for ArtWorkList to use
 Use styled-components to write CSS-in-JS
 */
 
+import { useRouter } from 'next/router';
+
 import {
     Card,
     Image,
