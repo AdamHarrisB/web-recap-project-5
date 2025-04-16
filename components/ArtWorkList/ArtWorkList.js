@@ -18,12 +18,24 @@ export default function ArtWorkList() {
 const [artWork, setArtWork] = useState([]);
 const [isLoading, setIsLoading] = useState(true);
 
+//
+
     useEffect(() => {
         async function fetchData() {
-
+            try {
+                const response = await fetch("https://example-apis.vercel.app/api/art");
+                const data = await response.json();
+                setArtWork(data);        
+                setIsLoading(false);        
+              } catch (err) {
+                setError(err);
+                setIsLoading(false);
+              }
             }
             fetchData();
           }, []);
+
+  if (isLoading) return <p>Loading...</p>;
 
 return (
     <>
