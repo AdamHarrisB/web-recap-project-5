@@ -18,7 +18,7 @@ export default function ArtWorkList() {
 const [artWork, setArtWork] = useState([]);
 const [isLoading, setIsLoading] = useState(true);
 
-//
+// Reused in SpotlightDisplay with math.random to select a single entry.
 
     useEffect(() => {
         async function fetchData() {
